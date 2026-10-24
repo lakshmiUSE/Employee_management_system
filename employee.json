@@ -1,0 +1,155 @@
+[
+    {
+        "name": "raja",
+        "email": "jogiramesh123@email.com",
+        "department": "IT",
+        "salary": 23000.0,
+        "joining_date": "2023-10-24",
+        "status": "Active",
+        "employee_id": "1bec8b21-9d7d-4055-b376-1e03c21e2f96"
+    },
+    {
+        "name": "rajesh",
+        "email": "rama123@email.com",
+        "department": "IT",
+        "salary": 25000.0,
+        "joining_date": "2022-10-22",
+        "status": "Active",
+        "employee_id": "33863227-953f-4daa-859a-2fc5b6169d3b"
+    },
+    {
+        "name": "Rajesh",
+        "email": "rajesh@example.com",
+        "department": "IT",
+        "salary": 25000.0,
+        "joining_date": "2026-10-15",
+        "status": "Active",
+        "employee_id": "38d292c9-719c-4af0-ae0f-46f22dfab95f"
+    },
+    {
+        "name": "Rajesh",
+        "email": "rajesh@email.com",
+        "department": "IT",
+        "salary": 25000.0,
+        "joining_date": "2026-10-15",
+        "status": "Active",
+        "employee_id": "d8cb3f0e-8704-46e3-b876-ec837bb0e5df"
+    },
+    {
+        "name": "Rajesh",
+        "email": "rajesh@gmail.com",
+        "department": "IT",
+        "salary": 25000.0,
+        "joining_date": "2026-10-15",
+        "status": "Active",
+        "employee_id": "3d2b84f8-5d78-4324-83a0-3716851f6bf7"
+    },
+    {
+        "name": "Rajesh",
+        "email": "rajesh123@gmail.com",
+        "department": "IT",
+        "salary": 25000.0,
+        "joining_date": "2026-10-15",
+        "status": "Active",
+        "employee_id": "3a4fa1a3-8f18-4a44-8375-42adaf0766b6"
+    },
+    {
+        "name": "Rajesh",
+        "email": "rajesh123@email.com",
+        "department": "IT",
+        "salary": 25000.0,
+        "joining_date": "2026-10-15",
+        "status": "Active",
+        "employee_id": "c325235d-b88f-480e-b9a1-e9c8f9d3af84"
+    },
+    {
+        "name": "Rajesh",
+        "email": "raja123@email.com",
+        "department": "IT",
+        "salary": 25000.0,
+        "joining_date": "2026-10-15",
+        "status": "Active",
+        "employee_id": "4104053d-98cf-408b-8ac8-941a982c6e63"
+    },
+    {
+        "name": "Rajesh",
+        "email": "jogi123@gmail.com",
+        "department": "IT",
+        "salary": 30000.0,
+        "joining_date": "2026-10-15",
+        "status": "Active",
+        "employee_id": "cbb51244-fa41-4b99-b753-5ffa8c095101"
+    },
+    {
+        "name": "Rajesh",
+        "email": "ramesh123@email.com",
+        "department": "IT",
+        "salary": 25000.0,
+        "joining_date": "2026-10-15",
+        "status": "Active",
+        "employee_id": "a9c2a636-71b7-48ad-ba5c-fb921556e47b"
+    },
+    {
+        "name": "Rajesh",
+        "email": "sirisha23@gmail.com",
+        "department": "IT",
+        "salary": 30000.0,
+        "joining_date": "2026-10-15",
+        "status": "Active",
+        "employee_id": "c7ca8c85-e7c1-4118-adc9-4477599da448"
+    },
+    {
+        "name": "Rajesh",
+        "email": "ramsh123@email.com",
+        "department": "IT",
+        "salary": 25000.0,
+        "joining_date": "2026-10-15",
+        "status": "Active",
+        "employee_id": "70cf25d3-facc-4153-8285-582b648a4a1c"
+    },
+    {
+        "name": "Rajesh",
+        "email": "sirsha23@gmail.com",
+        "department": "IT",
+        "salary": 30000.0,
+        "joining_date": "2026-10-15",
+        "status": "Active",
+        "employee_id": "5c2654d2-fc3e-4e2a-99c4-53eab2570ae8"
+    },
+    {
+        "name": "Rajesh",
+        "email": "rameh123@email.com",
+        "department": "IT",
+        "salary": 25000.0,
+        "joining_date": "2026-10-15",
+        "status": "Active",
+        "employee_id": "65faa765-e5c1-4d3f-ab25-2888186f54e7"
+    },
+    {
+        "name": "Rajesh",
+        "email": "sirisha3@gmail.com",
+        "department": "IT",
+        "salary": 30000.0,
+        "joining_date": "2026-10-15",
+        "status": "Active",
+        "employee_id": "68477c5a-cae6-4fea-a0f2-7188ccf38b16"
+    },
+    {
+        "name": "Rajesh",
+        "email": "rameh1283@email.com",
+        "department": "IT",
+        "salary": 25000.0,
+        "joining_date": "2026-10-15",
+        "status": "Active",
+        "employee_id": "f8230072-d469-44e4-b7d6-3c3e3ebd5220"
+    },
+    {
+        "name": "Rajesh",
+        "email": "sirisha93@gmail.com",
+        "department": "IT",
+        "salary": 30000.0,
+        "joining_date": "2026-10-15",
+        "status": "Active",
+        "employee_id": "9ad94db0-7176-4692-a4e9-f5e8dbb74211"
+    }
+]
