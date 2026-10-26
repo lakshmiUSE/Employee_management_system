@@ -35,7 +35,46 @@ pipenv --python 3.12
 pipenv shell
 ```
 
+#### Submission Guidelines
+`Feature Branch:` Create the feature branch using the naming convention feature_name/dev_enrollmentId.
+
+`Pull Request (PR) Title:` Follow the format IssueId | TaskId : Summary of the Issue | Task.
+
+`Commit Message:` Ensure the commit message clearly summarizes the changes made.
+
+Unit Test Coverage: Achieve more than 80% code coverage through unit tests.
+
+
+#### Git Commit Standards
+
+Follow this commit message format:
+
+<type>: <short description>
+
+Allowed Types:
+
+`src` — Source code changes.
+
+Example: src: add employee management functionality
+
+`doc` — Documentation changes.
+
+Example: doc: update README setup instructions
+
+`config` — Configuration changes.
+
+Example: config: add Pipenv configuration
+
+##### Guidelines:
+
+Use only src, doc, or config as commit types.
+Keep commit messages clear and concise.
+Use the imperative mood (e.g., add, update, fix).
+Ensure each commit represents a logical change.
+
 Submission Details:  Create a new feature branch with 
+
+#### Link to Git commands 
 
 https://docs.google.com/document/d/1M_h-lIQ5gdWH0so7c2LwXfOFP3YIA956cQAcxlnfvFk/edit?tab=t.0#heading=h.nauekykn9mht
 
