@@ -5,6 +5,7 @@ from source import employee_service
 def display_menu():
     print("\n===== Employee Management System =====")
     print("1. Add Employee")
+  
 
 
 while True:
@@ -26,5 +27,4 @@ while True:
             print(employee)
         except ValidationError as e:
             print(e)
- else:
-       print("Invalid choice. Please try again.")
+ 

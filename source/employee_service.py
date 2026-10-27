@@ -1,7 +1,7 @@
 
 import uuid
 from .validators import validate_employee_data
-from . import repository
+from .import repository
 
 from .exceptions import DuplicateEmployeeError
 

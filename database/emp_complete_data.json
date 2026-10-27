@@ -7,5 +7,14 @@
         "joining_date": "2002-10-23",
         "status": "Active",
         "employee_id": "9289df0a-7c93-4bf8-bf1e-dbc7b2b584f9"
+    },
+    {
+        "name": "manohar sir",
+        "email": "manohar123@gmail.com",
+        "department": "IT",
+        "salary": 24000.0,
+        "joining_date": "2003-10-23",
+        "status": "Active",
+        "employee_id": "107a75b3-eaa6-4eef-98e6-b8c2377c4827"
     }
 ]

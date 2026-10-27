@@ -1,9 +1,7 @@
 import pytest
-import pytest
 
 from source.employee_service import (
     add_employee,
-   
 )
 
 from source.exceptions import ( DuplicateEmployeeError)
@@ -20,8 +18,6 @@ def test_add_employee():
     }
 
     assert add_employee(employee)
-
-  
 
 def test_duplicate_email():
     employee = {
