@@ -6,6 +6,7 @@ from .import repository
 from .exceptions import DuplicateEmployeeError
 
 def add_employee(employee_data):
+    """Validate employee details, check for duplicate emails, and add a new employee"""
     employee=validate_employee_data(employee_data)
     employees=repository.load_employees()
 

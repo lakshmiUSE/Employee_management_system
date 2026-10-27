@@ -3,11 +3,13 @@ from config.config import ALLOWED_DEPARTMENTS, ALLOWED_STATUSES, DATE_FORMAT
 from datetime import datetime
 import re
 def validate_name(name):
+    """Validate and return the employee's full name"""
     if not isinstance(name,str) or not name.strip():
       raise ValidationError("Full name is requried")
     return name.strip() 
 
 def validate_email(email):
+   """Validate and return the employee's email address"""
    if not isinstance(email,str) or not email.strip():
         raise ValidationError(" email is requried")
    
@@ -20,6 +22,7 @@ def validate_email(email):
    return email
 
 def validate_salary(salary):
+    """Validate the employee's salary and return it as a number"""
     if  isinstance(salary,bool):
         raise ValidationError("salary must be valid number")
     
@@ -35,6 +38,7 @@ def validate_salary(salary):
     return salary
 
 def validate_department(department):
+    """Check whether the department is allowed"""
     if not isinstance(department,str) or not department.strip():
         raise ValidationError("Department is required")
 
@@ -48,6 +52,7 @@ def validate_department(department):
     return department
 
 def validate_joining_date(joining_data):
+    """Validate the joining date using the configured date format"""
     if not isinstance(joining_data,str) or not joining_data.strip():
         raise ValidationError("Joining date is required. Use YYYY-MM-DD")
 
@@ -63,12 +68,14 @@ def validate_joining_date(joining_data):
 
 
 def validate_status(status):
+    """Check whether the employee status is allowed"""
     if not isinstance(status, str) or status not in ALLOWED_STATUSES:
         raise ValidationError("Status must be Active or Inactive.")
 
     return status
 
 def validate_employee_data(employee_data):
+    """Validate all employee details."""
     if not isinstance(employee_data, dict):
         raise ValidationError("Employee information must be a dictionary.")
 

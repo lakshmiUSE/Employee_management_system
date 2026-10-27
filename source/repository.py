@@ -5,6 +5,7 @@ from .exceptions import DataStorageError
 
 
 def load_employees():
+    """Load employee data from the JSON file"""
     try:
         with open(DATA_FILE, "r", encoding="utf-8") as file:
             if not file.read().strip():
@@ -24,6 +25,7 @@ def load_employees():
 
 
 def save_employees(employees):
+    """Save employee records to the JSON file"""
     try:
         with open(DATA_FILE, "w", encoding="utf-8") as file:
             json.dump(employees, file, indent=4)
@@ -33,6 +35,7 @@ def save_employees(employees):
 
 
 def insert_employee(employee):
+    """Insert a new employee into the records"""
     employees = load_employees()
     employees.append(employee)
     save_employees(employees)

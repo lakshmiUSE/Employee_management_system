@@ -3,6 +3,7 @@ from source.exceptions import ValidationError
 from source import employee_service
 
 def display_menu():
+    """Display the employee mangement menu"""
     print("\n===== Employee Management System =====")
     print("1. Add Employee")
   
